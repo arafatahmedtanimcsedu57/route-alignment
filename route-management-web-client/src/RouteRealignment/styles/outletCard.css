@@ -1,0 +1,237 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengaliui.css);
+.card--biponon {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  padding: 16px;
+}
+
+.card--biponon hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid rgba(234, 234, 234, 0.6);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.card--biponon .card-heading--biponon {
+  color: #252525;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.card--biponon .card-body--biponon .name {
+  padding: none !important;
+  margin: none !important;
+  margin-bottom: 8px;
+  line-height: 20px;
+  color: #707070;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.card--biponon .card-body--biponon .name img {
+  margin-right: 8px;
+}
+
+.card--biponon .card-body--biponon .address {
+  padding: none !important;
+  margin: none !important;
+  margin-bottom: 2px;
+  line-height: 20px;
+  color: #707070;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.card--biponon .card-body--biponon .address img {
+  margin-right: 8px;
+}
+
+.card--biponon .card-body--biponon .route {
+  padding: none !important;
+  margin: none !important;
+  margin-bottom: 2px;
+  line-height: 20px;
+  color: #707070;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 14px;
+}
+
+.card--biponon .card-body--biponon .route img {
+  margin-right: 8px;
+}
+
+.card--biponon .card-footer--biponon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.card--biponon .card-footer--biponon .type {
+  color: #8BB100;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.card--biponon .card-footer--biponon .type .circle {
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background-color: #8BB100;
+  margin-right: 8px;
+}
+
+.card--biponon .card-footer--biponon .realignment-date {
+  color: #707070;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card--biponon .card-footer--biponon .realignment-date .date {
+  margin-top: 4px;
+  height: 22px;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.card--biponon .card-action--biponon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card--biponon .card-action--biponon button {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  height: 24px;
+  color: #E2136E;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.card--biponon .card-action--biponon button img {
+  margin-right: 12px;
+}
+
+.card--biponon .card-action--biponon .delete {
+  text-align: left;
+  padding-left: 0px;
+  border-right: 1px solid #EAEAEA;
+}
+
+.card--biponon .card-action--biponon .edit {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.modal-content {
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.modal-content .modal-header {
+  padding: 0px;
+  margin: 0px;
+  padding: 24px  16px 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #252525;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+.modal-content .modal-body {
+  padding: 0px;
+  margin: 0px;
+  padding: 8px;
+  color: #252525;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.modal-content .modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px;
+}
+
+.modal-content .modal-footer .btn {
+  margin: 8px;
+}
+
+.modal-content .modal-footer .no {
+  color: #E2136E;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 49px;
+  border: 1px solid #E2136E;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.modal-content .modal-footer .yes {
+  color: #FFFFFF;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #E2136E;
+}
+/*# sourceMappingURL=outletCard.css.map */

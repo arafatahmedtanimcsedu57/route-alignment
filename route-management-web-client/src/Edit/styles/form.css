@@ -1,0 +1,93 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengaliui.css);
+.form-edit--biponon .edit-submit {
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #E2136E;
+}
+
+.form-edit--biponon .select-container {
+  margin-top: 20px;
+}
+
+.form-edit--biponon .select-container label {
+  height: 22px;
+  color: #252525;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.form-edit--biponon .select-container .select-sub-label {
+  position: absolute;
+  padding: 5px;
+  background: #FFFFFF;
+  top: 55px;
+  left: 7%;
+  z-index: 10;
+  height: 16px;
+  color: #808080;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.form-edit--biponon .select-container .select-day {
+  padding: 0px 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 52px;
+  width: 100%;
+  border: 1px solid #B7B7B7;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  color: #252525;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form-edit--biponon .select-container .select-day:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #B7B7B7;
+}
+
+.form-edit--biponon .check-box-container {
+  margin-top: 20px;
+}
+
+.form-edit--biponon .check-box-container label {
+  height: 22px;
+  color: #252525;
+  font-family: "Noto Sans Bengali UI";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.form-edit--biponon .check-box-container .check-box-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-edit--biponon .check-box-container .check-box-options .form-check {
+  margin-right: 40px;
+}
+
+.form-edit--biponon .check-box-container .check-box-options .form-check input {
+  background: red;
+}
+/*# sourceMappingURL=form.css.map */

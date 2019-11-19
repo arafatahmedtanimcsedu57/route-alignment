@@ -1,0 +1,29 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengaliui.css); 
+
+.outlet-alert{
+    margin-top: 24px;
+
+    z-index: 10;
+    height: 131px;	
+    width: 100%;	
+    background-color: #FFFFFF;
+
+    padding: 24px 16px; 
+
+    .heading-alert{
+        color: #252525;	
+        font-family: "Noto Sans Bengali UI";	
+        font-size: 16px;	
+        font-weight: 600;	
+        line-height: 22px;	
+        text-align: center;
+    }
+
+    .body-alert{
+        color: #707070;	
+        font-family: "Noto Sans Bengali UI";	
+        font-size: 14px;	
+        line-height: 19px;	
+        text-align: center;
+    }
+}

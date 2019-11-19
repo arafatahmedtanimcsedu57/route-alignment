@@ -1,0 +1,97 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengaliui.css); 
+
+.form-edit--biponon{
+    .edit-submit{
+        margin-top: 20px;
+
+        color: #FFFFFF;	
+        font-family: "Noto Sans Bengali UI";	
+        font-size: 16px;	
+        font-weight: 500;	
+        line-height: 24px;	
+        text-align: center;
+        
+        outline: none;
+        border: none;
+        box-shadow: none;
+        
+        height: 48px;	
+        width: 100%;	
+        border-radius: 4px;	
+        background-color: #E2136E;
+    }
+
+    .select-container{
+        margin-top: 20px;
+        label{
+                height: 22px;	
+                color: #252525;	
+                font-family: "Noto Sans Bengali UI";	
+                font-size: 16px;	
+                line-height: 22px;
+            }
+
+        .select-sub-label{
+            position: absolute;
+            padding: 5px;
+            background: #FFFFFF;
+            top:55px;
+            left: 7%;
+            z-index: 10;
+            height: 16px;	
+            // width: 102.4px;	
+            color: #808080;	
+            font-family: "Noto Sans Bengali UI";	
+            font-size: 12px;	
+            line-height: 16px;
+        }
+
+        .select-day{
+            padding: 0px 16px;
+            box-sizing: border-box;	
+            height: 52px;
+            width: 100%;	
+            border: 1px solid #B7B7B7;	
+            border-radius: 4px;	
+            background-color: #FFFFFF;
+
+            color: #252525;	
+            font-family: "Noto Sans Bengali UI";	
+            font-size: 16px;	
+            line-height: 20px;
+
+            &:focus{
+                outline: none;
+                box-shadow: none;
+                border: 1px solid #B7B7B7;
+            }
+
+        }
+    }
+    
+    .check-box-container{
+        margin-top: 20px;
+         label{
+                height: 22px;	
+                color: #252525;	
+                font-family: "Noto Sans Bengali UI";	
+                font-size: 16px;	
+                line-height: 22px;
+        }
+
+        .check-box-options{ 
+            display: flex;
+
+            .form-check{
+                margin-right: 40px;
+
+                input {
+                background: red;
+                }
+
+                
+            }
+        }
+    }
+
+}

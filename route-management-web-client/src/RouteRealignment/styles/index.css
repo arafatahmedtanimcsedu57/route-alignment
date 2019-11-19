@@ -1,0 +1,37 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengaliui.css);
+.nav-bg--biponon {
+  width: 100%;
+  background-color: #E2136E;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+}
+
+.nav-bg--biponon .nav-item--biponon {
+  padding: 0px 16px;
+}
+
+.nav-bg--biponon .nav-item--biponon .nav-link--biponon {
+  color: rgba(255, 255, 255, 0.64);
+  font-family: "Noto Sans Bengali UI";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 12px 24px;
+}
+
+.nav-bg--biponon .nav-item--biponon .nav-link--biponon img {
+  opacity: 0.64 !important;
+}
+
+.nav-bg--biponon .nav-item--biponon .active {
+  color: white !important;
+}
+
+.nav-bg--biponon .nav-item--biponon .active img {
+  opacity: 1 !important;
+}
+
+.tab-content--biponon {
+  padding: 16px;
+}
+/*# sourceMappingURL=index.css.map */
